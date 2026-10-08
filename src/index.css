@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FAF7F2;
+    color: #1A1918;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F5EFEB;
+}
+::-webkit-scrollbar-thumb {
+  background: #C5A059;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4A1521;
+}
+
+/* Subtle textile grain and pattern styles */
+.pattern-warp-weft {
+  background-image: radial-gradient(rgba(197, 160, 89, 0.12) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.pattern-buti {
+  background-image: radial-gradient(#4A1521 0.75px, transparent 0.75px);
+  background-size: 28px 28px;
+  opacity: 0.08;
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #D4AF37 0%, #C5A059 50%, #E8D39E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

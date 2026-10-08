@@ -1,0 +1,6 @@
+{
+  "name": "Sulochana Dewagan Textile",
+  "description": "Discover handcrafted Kosa silk and traditional Chhattisgarh handloom textiles by Sulochana Dewagan Textile.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
